@@ -6,9 +6,15 @@ Install the [docker](https://www.docker.com/). Here are some guides for install 
 # Dependencies
 
 
-More details are in file unct_environ.txt
+More details are in file environment.yaml
 
+Clone this repository to your local workspace:
 
+    $ git https://github.com/YUNBLAK/BMI-Uncertainty-Estimation-for-Tumor-prediction.git
+
+This contains a Dockerfile that can be used to build and test our implementation. Go to the directory where the docker file exists and run the command below. If permission denied occurs, run docker in root sudo:
+
+    $ sudo docker build -t my-torch-app .
 
 # Citation
 
