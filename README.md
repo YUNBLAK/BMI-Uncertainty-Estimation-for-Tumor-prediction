@@ -34,6 +34,10 @@ Build without any cashes if you want to re-build:
     $ sudo docker build --no-cache -t my-torch-app .
 
 
+Run container:
+
+    $ docker run --gpus all -it --rm my-torch-app
+
 
 ## Examples for Container Usage
 
