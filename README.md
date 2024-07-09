@@ -19,7 +19,7 @@ Please move WSIs which you want to do patch-wise tumor prediction to dataset fol
     torchvision==0.18.0
 
 
-More details are in file environment.yaml
+More details are in file environment.yaml 
 
 ## NVIDIA Container Toolkit
 Installation of the NVIDIA Container Toolkit: To use the GPU in Docker, the NVIDIA Container Toolkit must be installed. Install using the following command:
@@ -31,7 +31,9 @@ Installation of the NVIDIA Container Toolkit: To use the GPU in Docker, the NVID
     sudo apt-get install -y nvidia-docker2
     sudo systemctl restart docker
 
+<br><br>
 
+    
 
 # How to Use Our Docker Image
 Clone this repository to your local workspace:
@@ -63,8 +65,9 @@ Build without any cashes if you want to re-build:
 
 
 
+<br><br><br>
 
-## Trouble Shooting:
+## Trouble Shooting
 **If you have any issue like:**
 docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running hook #0: error running hook: exit status 1, stdout: , stderr: Auto-detected mode as 'legacy'
 nvidia-container-cli: initialization error: load library failed: libnvidia-ml.so.1: cannot open shared object file: no such file or directory: unknown.
