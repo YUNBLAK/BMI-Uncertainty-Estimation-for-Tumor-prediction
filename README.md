@@ -5,7 +5,7 @@
 Install the [docker](https://www.docker.com/). Here are some guides for install docker for [Ubuntu](https://docs.docker.com/desktop/install/mac-install/) and docker for [MacOS](https://www.docker.com/)
 
 **2. Download Pretrained Model:**
-Please download two pretrained model, [Uncertainty Model](https://www.docker.com/) and [Baseline Model](https://www.docker.com/), and move them into model directory. 
+Please download two pretrained model, [Uncertainty Model](https://drive.google.com/file/d/1YlSQzmeggKB97pATNdlmeq6Q7PUr3EW-/view?usp=sharing) and [Baseline Model](https://drive.google.com/file/d/10H7Ce79zfb1b3tdX5dNexjIqKkCLtWzN/view?usp=sharing), and move them into model directory. 
 
 **3. Move Whole Slide Image:**
 Please move WSIs to dataset folder.
@@ -47,13 +47,23 @@ Build without any cashes if you want to re-build:
     $ sudo docker build --no-cache -t my-torch-app .
 
 
-Run container:
+## Run docker image
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" --entrypoint /bin/bash my-torch-app    
     $ sudo docker run --gpus all -it --rm my-torch-app
 
 
+1.Extracting patches from Whole Slides Image:
+
+    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
+
+2.Prediction with Uncertainty Model:
+
+    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start_con.sh
+
 ## Examples for Container Usage
+    
+    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
 
 
 
@@ -73,7 +83,9 @@ Re-install docker:
     $ sudo rm -rf /var/run/docker.sock
     $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
+## Extra-Commands:
 
+Connect
 
 # Citation
 
