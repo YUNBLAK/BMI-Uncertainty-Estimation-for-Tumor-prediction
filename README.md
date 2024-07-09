@@ -29,6 +29,10 @@ This contains a Dockerfile that can be used to build and test our implementation
 
     $ sudo docker build -t my-torch-app .
 
+Build without any cashes:
+    
+    $ sudo docker build --no-cache -t my-torch-app .
+
 
 
 ## Examples for Container Usage
