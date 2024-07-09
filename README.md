@@ -48,8 +48,12 @@ Build without any cashes if you want to re-build:
     
     $ sudo docker build --no-cache -t my-torch-app .
 
+## Run docker image (Auto)
+    
+    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app auto.sh
 
-## Run docker image
+
+## Run docker image (Manual)
 1.Extracting patches from Whole Slides Image:
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
