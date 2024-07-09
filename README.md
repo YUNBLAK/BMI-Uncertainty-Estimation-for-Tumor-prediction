@@ -87,7 +87,7 @@ If you want to execute every process step by step, please follow this instructio
 <br><br>
 
 # Reset
-If you want to reset output and logs, please use this command. This command will reset these directory
+If you want to reset outputs(extracted patches, predictions masks, values... etc) and logs, please use this command. This command will reset these directory
 
     logs
     logs_pred
