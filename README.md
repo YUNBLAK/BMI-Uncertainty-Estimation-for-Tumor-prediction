@@ -38,6 +38,25 @@ Build without any cashes:
 ## Examples for Container Usage
 
 
+
+
+
+## Trouble Shooting:
+If you have any issue like:    
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running hook #0: error running hook: exit status 1, stdout: , stderr: Auto-detected mode as 'legacy'
+nvidia-container-cli: initialization error: load library failed: libnvidia-ml.so.1: cannot open shared object file: no such file or directory: unknown.
+Re-install docker:
+
+    $ sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli
+    $ sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce
+    $ sudo rm -rf /var/lib/docker /etc/docker
+    $ sudo rm /etc/apparmor.d/docker
+    $ sudo groupdel docker
+    $ sudo rm -rf /var/run/docker.sock
+    $ sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+
+
 # Citation
 
     @InProceedings{Yun_2024_CVPR,
