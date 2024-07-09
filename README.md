@@ -33,7 +33,7 @@ Installation of the NVIDIA Container Toolkit: To use the GPU in Docker, the NVID
 
 
 
-# How to Use Docker
+# How to Use Our Docker Image
 Clone this repository to your local workspace:
 
     $ git https://github.com/YUNBLAK/BMI-Uncertainty-Estimation-for-Tumor-prediction.git
