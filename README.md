@@ -91,7 +91,8 @@ Re-install docker:
 
 ## Extra-Commands:
 
-Connecting to the Container Internally:
+Connecting to the Container Internally:   
+(You will enter the container with terminal)
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" --entrypoint /bin/bash my-torch-app    
 
