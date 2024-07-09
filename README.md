@@ -48,11 +48,6 @@ Build without any cashes if you want to re-build:
 
 
 ## Run docker image
-
-    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" --entrypoint /bin/bash my-torch-app    
-    $ sudo docker run --gpus all -it --rm my-torch-app
-
-
 1.Extracting patches from Whole Slides Image:
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
@@ -85,7 +80,10 @@ Re-install docker:
 
 ## Extra-Commands:
 
-Connect
+Connecting to the Container Internally:
+
+    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" --entrypoint /bin/bash my-torch-app    
+
 
 # Citation
 
