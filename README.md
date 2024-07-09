@@ -12,6 +12,16 @@ Please download two pretrained model, [Uncertainty Model](https://drive.google.c
 **3. Move Whole Slide Image:**
 Please move WSIs which you want to do patch-wise tumor prediction to dataset folder.
 
+
+# Directory Information
+
+    dataset             # You need to put WSIs here
+    model               # You need to put pre-trained model here
+    output              # For extracted patches from WSIs
+    prediction_masks    # Predicted Heatmap/Mask from Baseline and Uncertainty Model
+    prediction_values   # Predicted Probabilities from Baseline and Uncertainty Model
+
+
 # Dependencies
 
     scikit-learn==1.4.2
