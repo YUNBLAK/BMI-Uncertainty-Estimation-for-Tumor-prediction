@@ -8,6 +8,15 @@ Install the [docker](https://www.docker.com/). Here are some guides for install 
 
 More details are in file environment.yaml
 
+## NVIDIA Container Toolkit
+Installation of the NVIDIA Container Toolkit: To use the GPU in Docker, the NVIDIA Container Toolkit must be installed. Install using the following command:
+
+    sudo apt-get update
+    sudo apt-get install -y nvidia-container-toolkit
+    sudo systemctl restart docker
+
+
+
 Clone this repository to your local workspace:
 
     $ git https://github.com/YUNBLAK/BMI-Uncertainty-Estimation-for-Tumor-prediction.git
