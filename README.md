@@ -36,7 +36,7 @@ Build without any cashes if you want to re-build:
 
 Run container:
 
-    $ docker run --gpus all -it --rm my-torch-app
+    $ sudo docker run --gpus all -it --rm my-torch-app
 
 
 ## Examples for Container Usage
