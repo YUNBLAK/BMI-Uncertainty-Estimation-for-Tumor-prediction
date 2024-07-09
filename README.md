@@ -23,7 +23,8 @@ Please move WSIs which you want to do patch-wise tumor prediction to dataset fol
 
 
 # Dependencies
-
+    CUDA==12.1
+    cuDNN==8
     scikit-learn==1.4.2
     openslide-python==1.3.1
     opencv-python==4.9.0.80
