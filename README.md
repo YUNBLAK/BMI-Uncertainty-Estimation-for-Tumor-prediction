@@ -1,14 +1,22 @@
 # Uncertainty Estimation for Tumor Prediction
 
 # Setup
-**Docker:**
+**1. Docker:**
 Install the [docker](https://www.docker.com/). Here are some guides for install docker for [Ubuntu](https://docs.docker.com/desktop/install/mac-install/) and docker for [MacOS](https://www.docker.com/)
 
-**Download Pretrained Model:**
+**2. Download Pretrained Model:**
 Please download two pretrained model, [Uncertainty Model](https://www.docker.com/) and [Baseline Model](https://www.docker.com/), and move them into model directory. 
 
+**3. Move Whole Slide Image:**
+Please move WSIs to dataset folder.
 
 # Dependencies
+
+    scikit-learn==1.4.2
+    openslide-python==1.3.1
+    opencv-python==4.9.0.80
+    torch==2.3.0
+    torchvision==0.18.0
 
 
 More details are in file environment.yaml
