@@ -58,11 +58,9 @@ Build without any cashes if you want to re-build:
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start_con.sh
 
-## Examples for Container Usage
-    
-    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
+3.Prediction with Baseline Model:
 
-
+    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start.sh
 
 
 <br><br><br>
