@@ -41,6 +41,7 @@ Build without any cashes if you want to re-build:
 
 Run container:
 
+    $ sudo docker run --gpus all -it --rm -v /path/to/host/output:/app/output my-torch-app    
     $ sudo docker run --gpus all -it --rm my-torch-app
 
 
