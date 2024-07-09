@@ -1,4 +1,6 @@
 # Uncertainty Estimation for Tumor Prediction
+The provided repository contains the necessary instructions and information to reproduce our study, "Uncertainty Estimation for Tumor Prediction with Unlabeled Data".
+
 
 # Setup
 **1. Docker:**
