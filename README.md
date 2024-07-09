@@ -20,6 +20,7 @@ Please move WSIs which you want to do patch-wise tumor prediction to dataset fol
     output              # For extracted patches from WSIs
     prediction_masks    # Predicted Heatmap/Mask from Baseline and Uncertainty Model
     prediction_values   # Predicted Probabilities from Baseline and Uncertainty Model
+    logs_pred           # Real-time history during prediction process
 
 
 # Dependencies
@@ -84,6 +85,16 @@ If you want to execute every process step by step, please follow this instructio
 
 
 <br><br>
+
+# Reset
+If you want to reset output and logs, please use this command. This command will reset these directory
+
+    logs
+    logs_pred
+    prediction_masks
+    prediction_values
+    output
+
 
 # Trouble Shooting
 **If you have any issue like:**
