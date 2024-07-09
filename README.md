@@ -48,6 +48,8 @@ Build without any cashes if you want to re-build:
     
     $ sudo docker build --no-cache -t my-torch-app .
 
+<br>
+
 ## Run docker image (Auto)
     
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app auto.sh
