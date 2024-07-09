@@ -1,7 +1,12 @@
 # Uncertainty Estimation for Tumor Prediction
 
 # Setup
+**Docker:**
 Install the [docker](https://www.docker.com/). Here are some guides for install docker for [Ubuntu](https://docs.docker.com/desktop/install/mac-install/) and docker for [MacOS](https://www.docker.com/)
+
+**Download Pretrained Model:**
+Please download two pretrained model, [Uncertainty Model](https://www.docker.com/) and [Baseline Model](https://www.docker.com/), and move them into model directory. 
+
 
 # Dependencies
 
