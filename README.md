@@ -42,7 +42,7 @@ Build without any cashes if you want to re-build:
 
 
 ## Trouble Shooting:
-If you have any issue like:    
+**If you have any issue like:**
 docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running hook #0: error running hook: exit status 1, stdout: , stderr: Auto-detected mode as 'legacy'
 nvidia-container-cli: initialization error: load library failed: libnvidia-ml.so.1: cannot open shared object file: no such file or directory: unknown.
 Re-install docker:
