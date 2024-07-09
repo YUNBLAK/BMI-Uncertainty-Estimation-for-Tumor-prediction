@@ -101,8 +101,7 @@ Please Re-install docker:
 
 ## Extra-Commands:
 
-Connecting to the Container Internally:   
-(You will enter the container with terminal)
+Connecting to the Container Internally. You will enter the container with terminal. This command allow you to explore container and modify something.
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" --entrypoint /bin/bash my-torch-app    
 
