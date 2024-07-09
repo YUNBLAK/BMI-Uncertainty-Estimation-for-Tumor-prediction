@@ -49,7 +49,7 @@ Build without any cashes if you want to re-build:
 
 Run container:
 
-    $ sudo docker run --gpus all -it --rm --volume="$PWD:/home/workspace" --entrypoint /bin/bash my-torch-app    
+    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" --entrypoint /bin/bash my-torch-app    
     $ sudo docker run --gpus all -it --rm my-torch-app
 
 
