@@ -51,11 +51,13 @@ Build without any cashes if you want to re-build:
 <br>
 
 ## Run docker image (Auto)
+If you want to automatically patch WSI images and predict the results using both the Uncertainty and Baseline models, please follow this instructions:   
     
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app auto.sh
 
 
 ## Run docker image (Manual)
+If you want to execute every process step by step, please follow this instruction.   
 1.Extracting patches from Whole Slides Image:
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
