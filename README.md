@@ -59,7 +59,7 @@ This repository contains a Dockerfile that can be used to build and test our imp
 
     $ sudo docker build -t my-torch-app .
 
-Build without any cashes if you want to re-build:
+Build without any cash if you want to re-build:
     
     $ sudo docker build --no-cache -t my-torch-app .
 
