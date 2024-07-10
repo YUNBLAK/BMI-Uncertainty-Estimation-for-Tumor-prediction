@@ -4,7 +4,13 @@ The provided repository contains the necessary instructions and information to r
 
 # Setup
 **1. Docker:**
-Install the [docker](https://www.docker.com/). Here are some guides for install docker for [Ubuntu](https://docs.docker.com/desktop/install/mac-install/) and docker for [MacOS](https://www.docker.com/)
+Install the [docker](https://www.docker.com/). Here are some guides for install docker for [Ubuntu](https://docs.docker.com/desktop/install/mac-install/) and docker for [MacOS](https://www.docker.com/)   
+
+And clone this repository to your local workspace:
+
+    $ git https://github.com/YUNBLAK/BMI-Uncertainty-Estimation-for-Tumor-prediction.git
+
+
 
 **2. Download Pretrained Model:**
 Please download two pretrained model, [Uncertainty Model](https://drive.google.com/file/d/1YlSQzmeggKB97pATNdlmeq6Q7PUr3EW-/view?usp=sharing) and [Baseline Model](https://drive.google.com/file/d/10H7Ce79zfb1b3tdX5dNexjIqKkCLtWzN/view?usp=sharing), and move them into model directory. 
@@ -49,10 +55,6 @@ Installation of the NVIDIA Container Toolkit: To use the GPU in Docker, the NVID
     
 
 # How to Use Our Docker Image
-Clone this repository to your local workspace:
-
-    $ git https://github.com/YUNBLAK/BMI-Uncertainty-Estimation-for-Tumor-prediction.git
-
 This contains a Dockerfile that can be used to build and test our implementation. Go to the directory where the docker file exists and run the command below. If permission denied occurs, run docker in root sudo:
 
     $ sudo docker build -t my-torch-app .
