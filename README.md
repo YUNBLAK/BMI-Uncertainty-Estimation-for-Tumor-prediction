@@ -8,7 +8,7 @@ Install the [docker](https://www.docker.com/). Here are some guides for install 
 
 And clone this repository to your local workspace:
 
-    $ git https://github.com/YUNBLAK/BMI-Uncertainty-Estimation-for-Tumor-prediction.git
+    $ git clone https://github.com/YUNBLAK/BMI-Uncertainty-Estimation-for-Tumor-prediction.git
 
 
 
