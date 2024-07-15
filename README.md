@@ -57,10 +57,17 @@ Installation of the NVIDIA Container Toolkit: To use the GPU in Docker, the NVID
 # How to Use Our Docker Image
 This repository contains a Dockerfile that can be used to build and test our implementation. Go to the main directory [I need fix , more specific] the docker file exists and run the command below. If permission denied occurs, run docker in root sudo:
 
+# How to Use Our Docker Image
+
+This repository contains a Dockerfile that can be used to build and test our implementation. Navigate to the directory where the Dockerfile is located (the main directory of this repository) and run the command below. If you encounter a permission denied error, try running Docker with `sudo`:
+
+
+    $ cd /path/to/your/repository      # Make sure you are in the directory containing the Dockerfile
     $ sudo docker build -t my-torch-app .
 
 Build without any cache if you want to re-build:
-    
+
+    $cd /path/to/your/repository       # Make sure you are in the directory containing the Dockerfile
     $ sudo docker build --no-cache -t my-torch-app .
 
 <br>
