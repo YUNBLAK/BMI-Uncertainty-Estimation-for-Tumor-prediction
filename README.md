@@ -66,7 +66,7 @@ Build without any cache if you want to re-build:
 <br>
 
 ## Run Command (Auto)
-If you want to automatically patch WSI images and predict the results using both the Uncertainty and Baseline models, please follow this instructions:   
+If you want to automatically do tiling WSI images to make patches and predict the results using both the Uncertainty and Baseline models, please follow this instructions:   
     
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app auto.sh
 
@@ -89,7 +89,7 @@ If you want to execute every process step by step, please follow this instructio
 <br><br>
 
 # Reset
-If you want to reset outputs(extracted patches, predictions masks, values... etc) and logs, please use this command. This command will reset these directory:
+If you want to reset outputs(tiled patches, predictions masks, values... etc) and logs, please use this command. This command will reset these directory:
 
     logs
     logs_pred
