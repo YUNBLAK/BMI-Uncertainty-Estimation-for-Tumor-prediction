@@ -69,22 +69,22 @@ Build without any cache if you want to re-build:
 <br>
 
 ## Run Command (Auto)
-If you want to automatically do tiling WSI images to make patches and predict the results using both the Uncertainty and Baseline models, please follow this instructions:   
+If you want to automatically do tiling WSI images to make patches and predict the results of patch-wise tumor prediction using both the Uncertainty (Consistency Ranking Loss + Correctness Ranking Loss - Our paper) and Baseline model (Cross Entropy Loss - Standard Prediction), please follow this instructions:   
     
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app auto.sh
 
 
 ## Run Command (Manual)
-If you want to execute every process step by step, please follow this instruction.   
-1.Extracting patches from Whole Slides Image:
+To execute each process step-by-step, please follow these instructions:   
+1.Tiling patches from Whole Slides Image:
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
 
-2.Prediction with Uncertainty Model:
+2.Patch-wise Tumor Prediction with Uncertainty Model:
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start_con.sh
 
-3.Prediction with Baseline Model:
+3.Patch-wise Tumor Prediction with Baseline Model:
 
     $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start.sh
 
