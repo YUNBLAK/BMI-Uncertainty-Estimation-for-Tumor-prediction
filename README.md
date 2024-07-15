@@ -13,10 +13,10 @@ And clone this repository to your local workspace:
 
 
 **2. Download Pretrained Model:**
-Please download two pretrained model, [Uncertainty Model](https://drive.google.com/file/d/1YlSQzmeggKB97pATNdlmeq6Q7PUr3EW-/view?usp=sharing) and [Baseline Model](https://drive.google.com/file/d/10H7Ce79zfb1b3tdX5dNexjIqKkCLtWzN/view?usp=sharing), and move them into '_model_' directory. 
+Please download two pretrained model, [Uncertainty Model](https://drive.google.com/file/d/1YlSQzmeggKB97pATNdlmeq6Q7PUr3EW-/view?usp=sharing) and [Baseline Model](https://drive.google.com/file/d/10H7Ce79zfb1b3tdX5dNexjIqKkCLtWzN/view?usp=sharing), and move them into `model` directory. 
 
 **3. Move Whole Slide Image:**
-Please move WSIs which you want to do patch-wise tumor prediction to '_dataset_' folder. Please remove '_placeholder_' file in '_dataset_' directory.
+Please move WSIs which you want to do patch-wise tumor prediction to `dataset` folder. Please remove `placeholder` file in `dataset` directory.
 
 
 # Directory Information
@@ -52,10 +52,6 @@ Installation of the NVIDIA Container Toolkit: To use the GPU in Docker, the NVID
 
 <br><br>
 
-    
-
-# How to Use Our Docker Image
-This repository contains a Dockerfile that can be used to build and test our implementation. Go to the main directory [I need fix , more specific] the docker file exists and run the command below. If permission denied occurs, run docker in root sudo:
 
 # How to Use Our Docker Image
 
