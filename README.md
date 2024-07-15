@@ -100,6 +100,10 @@ If you want to reset outputs(tiled patches, predictions masks, values... etc) an
     prediction_values
     output
 
+Reset command is:
+
+    $ ./refresher.sh
+
 
 # Trouble Shooting
 **If you have any issue like:**
