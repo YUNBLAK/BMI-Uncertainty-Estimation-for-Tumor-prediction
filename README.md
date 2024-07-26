@@ -76,17 +76,18 @@ If you want to automatically do tiling WSI images to make patches and predict th
 
 ## Run Command (Manual)
 To execute each process step-by-step, please follow these instructions:   
-1.Tiling patches from Whole Slides Image:
+1. Tiling patches from Whole Slides Image:
 
-    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
+    
+        $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app save_svs_to_tiles.sh
 
-2.Patch-wise Tumor Prediction with Uncertainty Model:
+2. Patch-wise Tumor Prediction with Uncertainty Model:   
 
-    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start_con.sh
+        $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start_con.sh
 
-3.Patch-wise Tumor Prediction with Baseline Model:
+3. Patch-wise Tumor Prediction with Baseline Model:   
 
-    $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start.sh
+        $ sudo docker run --gpus all -it --rm -v "$PWD:/app" my-torch-app start.sh
 
 
 <br><br>
