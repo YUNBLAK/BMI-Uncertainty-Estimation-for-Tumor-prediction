@@ -4,9 +4,7 @@ The provided repository contains the necessary instructions and information to r
 
 # Setup
 **1. Docker:**
-Install the [docker](https://www.docker.com/). Here are some guides for install docker for [Ubuntu](https://docs.docker.com/desktop/install/mac-install/) and docker for [MacOS](https://www.docker.com/)   
-
-And clone this repository to your local workspace:
+Install the [docker](https://www.docker.com/). Here are some guides for install docker for [Ubuntu](https://docs.docker.com/desktop/install/mac-install/) and docker for [MacOS](https://www.docker.com/) And clone this repository to your local workspace:
 
     $ git clone https://github.com/YUNBLAK/BMI-Uncertainty-Estimation-for-Tumor-prediction.git
 
