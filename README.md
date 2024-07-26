@@ -92,17 +92,17 @@ To execute each process step-by-step, please follow these instructions:
 <br><br>
 
 # Reset
-If you want to reset outputs(tiled patches, predictions masks, values... etc) and logs, please use this command. This command will reset these directory:
+If you want to reset outputs(tiled patches, predictions masks, values... etc) and logs, please use this command:
+    
+    $ ./refresher.sh
+
+This command will reset these directory:
 
     logs
     logs_pred
     prediction_masks
     prediction_values
     output
-
-Reset command is:
-
-    $ ./refresher.sh
 
 
 # Trouble Shooting
